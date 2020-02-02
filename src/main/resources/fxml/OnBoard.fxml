@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="1101.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane prefHeight="575.0" prefWidth="429.0" style="-fx-background-color: #2196f3;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label alignment="CENTER" layoutX="117.0" layoutY="51.0" prefHeight="23.0" prefWidth="173.0" text="MyZamgerInsight" textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="55.0" layoutY="77.0" prefHeight="23.0" prefWidth="318.0" text="%o.poruka1" textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI" size="12.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="labelaIme" layoutX="75.0" layoutY="159.0" prefHeight="32.0" prefWidth="278.0" promptText="%o.ime" />
+                <TextField fx:id="labelaPrezime" layoutX="75.0" layoutY="217.0" prefHeight="32.0" prefWidth="278.0" promptText="%o.prezime" />
+                <TextField fx:id="labelaBrojIndeksa" layoutX="75.0" layoutY="276.0" prefHeight="32.0" prefWidth="278.0" promptText="%o.brindeksa" />
+                <Button fx:id="btnPretrazi" defaultButton="true" layoutX="76.0" layoutY="500.0" mnemonicParsing="false" onAction="#btnPretraziAction" prefHeight="32.0" prefWidth="133.0" styleClass="button2" text="%o.pretraziBtn" />
+            <Label layoutX="76.0" layoutY="450.0" text="%o.rank" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+                <ComboBox fx:id="polPredmeti" editable="true" layoutX="76.0" layoutY="334.0" prefHeight="32.0" prefWidth="278.0" promptText="%o.polozeni">
+                </ComboBox>
+            <ComboBox fx:id="nepolPredmeti" editable="true" layoutX="76.0" layoutY="391.0" prefHeight="32.0" prefWidth="278.0" promptText="%o.nepolozeni" />
+            <Label fx:id="rankBr" layoutX="290.0" layoutY="441.0" text="-" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+               <effect>
+                  <DropShadow radius="12.3825" spread="0.09" width="30.53" />
+               </effect></Label>
+            <Label alignment="CENTER" layoutX="57.0" layoutY="93.0" prefHeight="23.0" prefWidth="318.0" text="%o.poruka2" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnExport" layoutX="224.0" layoutY="500.0" mnemonicParsing="false" onAction="#exportAction" prefHeight="32.0" prefWidth="133.0" styleClass="button2" text="%o.exportBtn" />
+            </children>
+        </Pane>
+        <Label fx:id="lblStatus" layoutX="438.0" layoutY="26.0" prefHeight="32.0" prefWidth="354.0" text="%o.rezMojeGen" />
+      <ListView fx:id="listaVju" layoutX="438.0" layoutY="58.0" prefHeight="494.0" prefWidth="652.0" />
+    </children>
+</AnchorPane>

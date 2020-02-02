@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="bazaprojekat" uuid="ff13a9f4-f7cf-4f6e-bf4a-1b32ebf2487f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Huso\IdeaProjects\whosoPROJEKAT\bazaprojekat.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
