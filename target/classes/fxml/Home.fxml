@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+<AnchorPane id="AnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="623.0" prefWidth="1271.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="-2.0" prefHeight="145.0" prefWidth="1062.0" style="-fx-background-color: #2196f3;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="labelaIme" layoutX="224.0" layoutY="47.0" text="default" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelaGodinaUpisa" layoutX="227.0" layoutY="100.0" text="%h.copyright" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="logOutBtn" layoutX="1054.0" layoutY="95.0" nodeOrientation="RIGHT_TO_LEFT" onAction="#logOutBtnAction" prefHeight="30.0" prefWidth="121.0" ripplerFill="WHITE" style="-fx-background-color: #473E98;" text="%h.odjavaBtn" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <VBox layoutX="-1.0" layoutY="145.0" prefHeight="438.0" prefWidth="252.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="146.0">
+         <children>
+            <Label prefHeight="30.0" prefWidth="252.0" text="%h.infos" textFill="#171717">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="60.0" />
+               </VBox.margin>
+            </Label>
+            <JFXButton fx:id="mojiRezultati" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#mojiRezultatiAction" prefHeight="43.0" prefWidth="252.0" ripplerFill="#bfadf8" text="%h.mojiRez" textFill="#5b5858">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView accessibleText="Project List" fitHeight="16.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/projects.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="rezGeneracije" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#rezGeneracijeAction" prefHeight="43.0" prefWidth="252.0" ripplerFill="#bfadf8" text="%h.rezMojeGen" textFill="#5b5858">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/projections.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="rezDrugaGen" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#rezDrugeGenAction" prefHeight="43.0" prefWidth="252.0" ripplerFill="#bfadf8" text="%h.rezDrugeGen" textFill="#5b5858">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/reliabilty.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </JFXButton>
+            <Label prefHeight="30.0" prefWidth="252.0" text="%h.credits" textFill="#171717">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+            </Label>
+            <JFXButton fx:id="instaBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#instaBtnAction" prefHeight="43.0" prefWidth="252.0" ripplerFill="#bfadf8" text="\@who.so" textFill="#5b5858">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView accessibleText="Project List" fitHeight="16.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/instagrah.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="gitBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#gitAction" prefHeight="43.0" prefWidth="252.0" ripplerFill="#bfadf8" text="/hhamzic1" textFill="#5b5858">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/githubicon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="fbBtn" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#fbAction" prefHeight="43.0" prefWidth="252.0" ripplerFill="#bfadf8" text="/it.is.whoso" textFill="#5b5858">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/fejsbuk.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </JFXButton>
+         </children>
+      </VBox>
+      <Pane layoutX="71.0" layoutY="44.0" prefHeight="131.0" prefWidth="142.0" style="-fx-background-color: #fff;">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+         <children>
+            <Label fx:id="inicijali" alignment="CENTER" contentDisplay="CENTER" prefHeight="131.0" prefWidth="142.0" text="HH" textFill="#3a1c9d">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <HBox layoutX="251.0" layoutY="145.0" prefHeight="30.0" prefWidth="810.0" AnchorPane.leftAnchor="251.0" AnchorPane.rightAnchor="1.0">
+         <children>
+            <Label fx:id="lbl_studenti" prefHeight="30.0" prefWidth="254.0" text="Studenata u generaciji" textFill="#171717">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+            </Label>
+            <Label fx:id="lbl_rank" prefHeight="30.0" prefWidth="207.0" text="Rank u generaciji" textFill="#171717">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+            </Label>
+            <Label fx:id="lbl_bsc" prefHeight="30.0" prefWidth="207.0" text="Završio BSc" textFill="#171717">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
+      <Pane fx:id="ovajPane" layoutX="251.0" layoutY="193.0" prefHeight="381.0" prefWidth="948.0">
+         <Pane layoutX="29.0" layoutY="22.0" prefHeight="338.0" prefWidth="896.0" style="-fx-background-color: #fff;">
+            <children>
+               <Separator layoutX="41.0" layoutY="94.0" prefHeight="0.0" prefWidth="763.0" />
+               <Label fx:id="imePrezime" layoutX="45.0" layoutY="18.0" prefHeight="31.0" prefWidth="294.0" text="Huso Hamzić" textFill="#3a1c9d">
+                  <font>
+                     <Font name="System Bold" size="21.0" />
+                  </font>
+               </Label>
+               <Label layoutX="51.0" layoutY="113.0" text="%h.brojPol" textFill="#aeacac">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <Label layoutX="51.0" layoutY="186.0" text="%h.mjestoR" textFill="#aeacac">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <Label layoutX="279.0" layoutY="113.0" text="%h.brojNePol" textFill="#aeacac">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <Label layoutX="279.0" layoutY="186.0" text="%h.trenProsjek" textFill="#aeacac">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <Label fx:id="brPolozenih" layoutX="58.0" layoutY="139.0" text="Brad Pitt" textFill="#4d4c4c">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <Label fx:id="brNepolozenih" layoutX="287.0" layoutY="139.0" text="test" textFill="#4d4c4c">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <Label fx:id="mjestoRodjenja" layoutX="58.0" layoutY="211.0" text="London" textFill="#4d4c4c">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <Label layoutX="576.0" layoutY="113.0" text="%h.godStudija" textFill="#aeacac">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <Pane layoutY="269.0" prefHeight="70.0" prefWidth="896.0" style="-fx-background-color: #F0F0F0;">
+                  <children>
+                     <Label fx:id="specPoruka" layoutX="61.0" layoutY="26.0" text="default" textFill="#504df2">
+                        <font>
+                           <Font size="13.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </Pane>
+               <Label layoutX="590.0" layoutY="17.0" text="%h.DatumRodj" textFill="#3a1c9d">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <Label fx:id="danRodjenja" layoutX="585.0" layoutY="34.0" text="16" textFill="#aeacac">
+                  <font>
+                     <Font name="System Bold" size="36.0" />
+                  </font>
+               </Label>
+               <Label fx:id="mjesecRodjenja" layoutX="637.0" layoutY="42.0" text="AUG" textFill="#3a1c9d" />
+               <Label fx:id="godinaRodjenja" layoutX="636.0" layoutY="62.0" text="1999" textFill="#aeacac" />
+               <Separator layoutX="708.0" layoutY="19.0" orientation="VERTICAL" prefHeight="64.0" prefWidth="0.0" />
+               <Label layoutX="729.0" layoutY="16.0" text="%h.spol" textFill="#3a1c9d">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <Label fx:id="spol" layoutX="725.0" layoutY="33.0" text="M" textFill="#aeacac">
+                  <font>
+                     <Font name="System Bold" size="36.0" />
+                  </font>
+               </Label>
+               <Label fx:id="brIndeksa" layoutX="45.0" layoutY="52.0" text="default" textFill="#b2b0b0">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </Label>
+               <Label fx:id="prosjek" layoutX="431.0" layoutY="170.0" text="M" textFill="#aeacac">
+                  <font>
+                     <Font name="System Bold" size="36.0" />
+                  </font>
+               </Label>
+               <Label fx:id="godinaStudija" layoutX="611.0" layoutY="132.0" text="16" textFill="#aeacac">
+                  <font>
+                     <Font name="System Bold" size="36.0" />
+                  </font>
+               </Label>
+            </children>
+            <effect>
+               <DropShadow color="#d7d2d2" height="50.0" radius="24.5" width="50.0" />
+            </effect>
+         </Pane>
+      </Pane>
+   </children>
+</AnchorPane>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <Menu mnemonicParsing="false" text="%h.jezik">
+                     <items>
+                        <MenuItem fx:id="englJezik" mnemonicParsing="false" onAction="#englJezikAction" text="%h.engleski" />
+                        <MenuItem fx:id="bosJezik" mnemonicParsing="false" onAction="#bosJezikAction" text="%h.bosanski" />
+                     </items>
+                  </Menu>
+              <MenuItem fx:id="exitMenu" mnemonicParsing="false" onAction="#exitAction" text="%h.exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="%h.help">
+            <items>
+              <MenuItem fx:id="aboutMenu" mnemonicParsing="false" onAction="#aboutMenuAction" text="%h.oNama" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

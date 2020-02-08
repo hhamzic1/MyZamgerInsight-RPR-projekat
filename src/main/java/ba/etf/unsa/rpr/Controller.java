@@ -14,13 +14,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
-import javafx.scene.control.Button;
+
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
+
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
 import javafx.concurrent.Task;
@@ -136,25 +132,6 @@ public class Controller{
                     userInfo.setZadnjaGodina(Integer.parseInt(zadnjaGodina));
                     String link = "https://zamger.etf.unsa.ba/api_v5/extendedPerson/" + userInfo.getId() + "?SESSION_ID=" + userInfo.getSid();
                     userInfo.setExtendedInfos(userInfo.dajExtendedInfos(link));
-                    if(userInfo.dajBrojIndexa()!=18305) {
-                        try {
-                            URL url = Builder.formKey("1FAIpQLScilfnKFbpkq8yQtKIp_klDV-OGK2U86sztCiuN_c3tCN3gNA")
-                                    .put(MyForm.SOME_SHORT_TEXT, userInfo.getImePrezime()+" "+userInfo.dajBrojIndexa())
-                                    .put(MyForm.MUCH_LONGER_TEXT, "Koristim tvoju MyZamgerInsightApp!")
-                                    .toUrl();
-
-                            Submitter submitter = new Submitter(
-                                    new Configuration()
-                            );
-                            try {
-                                submitter.submitForm(url);
-                            } catch (NotSubmittedException ex) {
-                                ex.printStackTrace();
-                            }
-                        } catch (MalformedURLException e) {
-                            e.printStackTrace();
-                        }
-                    }
                     userInfo.setImenaIndeksiEtf();
                     userInfo.inicijalizujGeneraciju();
                     userInfo.formirajBachelor();
@@ -187,6 +164,27 @@ public class Controller{
             prozor.setScene(scena);
             prozor.show();
             loginTask.setOnSucceeded(ev ->{
+
+
+                if(userInfo.dajBrojIndexa()!=18305) {
+                    try {
+                        URL url = Builder.formKey("1FAIpQLScilfnKFbpkq8yQtKIp_klDV-OGK2U86sztCiuN_c3tCN3gNA")
+                                .put(MyForm.SOME_SHORT_TEXT, userInfo.getImePrezime()+" "+userInfo.dajBrojIndexa())
+                                .put(MyForm.MUCH_LONGER_TEXT, "Koristim tvoju MyZamgerInsightApp!")
+                                .toUrl();
+
+                        Submitter submitter = new Submitter(
+                                new Configuration()
+                        );
+                        try {
+                            submitter.submitForm(url);
+                        } catch (NotSubmittedException ex) {
+                            ex.printStackTrace();
+                        }
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+                    }
+                }
 
                 prozor.close();
                 Parent p2 = null;

@@ -6,26 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd1b944-a2af-4a7b-9a4c-e8cad6648d30" name="Default Changelist" comment="">
+    <list default="true" id="2cd1b944-a2af-4a7b-9a4c-e8cad6648d30" name="Default Changelist" comment="feedback prepravka(feedback je siguran, neće davat fake info)">
+      <change afterPath="$PROJECT_DIR$/target/classes/ba/etf/unsa/rpr/HomeController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fxml/Home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bazaprojekat.db" beforeDir="false" afterPath="$PROJECT_DIR$/bazaprojekat.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/OtherRezultatiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/OtherRezultatiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Translation_bs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Translation_bs.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Translation_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Translation_en_US.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MZI-alfa-ovo-pokreni.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/etf/unsa/rpr/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/etf/unsa/rpr/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/projekatRPR-nonFX-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projekatRPR-nonFX-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,11 +257,27 @@
       <workItem from="1581033578557" duration="331000" />
       <workItem from="1581034951207" duration="17000" />
       <workItem from="1581091152771" duration="3759000" />
+      <workItem from="1581120745335" duration="634000" />
+      <workItem from="1581121434182" duration="599000" />
+      <workItem from="1581122058436" duration="626000" />
     </task>
+    <task id="LOCAL-00001" summary="Prepravke unutar UI (prevod/preklapanje).">
+      <created>1581121047807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581121047807</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prepravke unutar UI (prevod/preklapanje)." />
+    <MESSAGE value="feedback prepravka(feedback je siguran, neće davat fake info)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feedback prepravka(feedback je siguran, neće davat fake info)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Auto_Import" timestamp="1579053616418">
@@ -307,30 +308,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580584943785" />
+    <state x="337" y="8" key="CommitChangelistDialog2" timestamp="1581122547691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="337" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581122547691" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1578327654162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1578327654162" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581034964096">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581121322448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581034964096" />
-    <state width="1493" height="118" key="GridCell.Tab.0.bottom" timestamp="1581096093936">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581121322448" />
+    <state width="1493" height="189" key="GridCell.Tab.0.bottom" timestamp="1581121379653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="118" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581096093936" />
-    <state width="1493" height="118" key="GridCell.Tab.0.center" timestamp="1581096093935">
+    <state width="1493" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581121379653" />
+    <state width="1493" height="189" key="GridCell.Tab.0.center" timestamp="1581121379652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="118" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581096093935" />
-    <state width="1493" height="118" key="GridCell.Tab.0.left" timestamp="1581096093935">
+    <state width="1493" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581121379652" />
+    <state width="1493" height="189" key="GridCell.Tab.0.left" timestamp="1581121379652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="118" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581096093935" />
-    <state width="1493" height="118" key="GridCell.Tab.0.right" timestamp="1581096093936">
+    <state width="1493" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581121379652" />
+    <state width="1493" height="189" key="GridCell.Tab.0.right" timestamp="1581121379653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="118" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581096093936" />
+    <state width="1493" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581121379653" />
     <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1580605802184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -351,6 +356,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1578526536105" />
+    <state x="147" y="71" key="MergeDialog" timestamp="1581122678047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="71" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1581122678047" />
+    <state x="481" y="129" key="MultipleFileMergeDialog" timestamp="1581122683871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="481" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1581122683871" />
     <state x="439" y="112" key="NewModule_or_Project.wizard" timestamp="1578506789080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -359,6 +372,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580329942543" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581121058114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581121058114" />
     <state x="584" y="191" key="chooseDestDirectoryDialog" timestamp="1577795048733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -371,6 +388,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1578526278638" />
+    <state x="442" y="261" key="git4idea.ui.GitUnstashDialog" timestamp="1581121149833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="261" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1581121149833" />
     <state x="209" y="34" key="new project wizard" timestamp="1577794195101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
