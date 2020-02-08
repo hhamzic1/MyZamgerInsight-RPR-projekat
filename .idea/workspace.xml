@@ -6,7 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd1b944-a2af-4a7b-9a4c-e8cad6648d30" name="Default Changelist" comment="" />
+    <list default="true" id="2cd1b944-a2af-4a7b-9a4c-e8cad6648d30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazaprojekat.db" beforeDir="false" afterPath="$PROJECT_DIR$/bazaprojekat.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/OtherRezultatiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/OtherRezultatiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Translation_bs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Translation_bs.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Translation_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Translation_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MZI-alfa-ovo-pokreni.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/etf/unsa/rpr/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/etf/unsa/rpr/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projekatRPR-nonFX-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/projekatRPR-nonFX-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +54,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -54,7 +77,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rpr19-2parc-1t" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30114943" />
@@ -242,6 +265,13 @@
       <workItem from="1580580960313" duration="3276000" />
       <workItem from="1580585009775" duration="19049000" />
       <workItem from="1580641732406" duration="4275000" />
+      <workItem from="1580651680314" duration="612000" />
+      <workItem from="1580670823935" duration="143000" />
+      <workItem from="1580690553503" duration="36000" />
+      <workItem from="1580761369534" duration="1916000" />
+      <workItem from="1581033578557" duration="331000" />
+      <workItem from="1581034951207" duration="17000" />
+      <workItem from="1581091152771" duration="3759000" />
     </task>
     <servers />
   </component>
@@ -281,26 +311,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1578327654162" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1580591108865">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581034964096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580591108865" />
-    <state width="1493" height="384" key="GridCell.Tab.0.bottom" timestamp="1580649556379">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581034964096" />
+    <state width="1493" height="118" key="GridCell.Tab.0.bottom" timestamp="1581096093936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="384" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580649556379" />
-    <state width="1493" height="384" key="GridCell.Tab.0.center" timestamp="1580649556379">
+    <state width="1493" height="118" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581096093936" />
+    <state width="1493" height="118" key="GridCell.Tab.0.center" timestamp="1581096093935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="384" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580649556379" />
-    <state width="1493" height="384" key="GridCell.Tab.0.left" timestamp="1580649556379">
+    <state width="1493" height="118" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581096093935" />
+    <state width="1493" height="118" key="GridCell.Tab.0.left" timestamp="1581096093935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="384" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580649556379" />
-    <state width="1493" height="384" key="GridCell.Tab.0.right" timestamp="1580649556379">
+    <state width="1493" height="118" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581096093935" />
+    <state width="1493" height="118" key="GridCell.Tab.0.right" timestamp="1581096093936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="384" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580649556379" />
+    <state width="1493" height="118" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581096093936" />
     <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1580605802184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

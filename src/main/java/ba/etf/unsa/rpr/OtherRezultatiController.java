@@ -63,26 +63,27 @@ public class OtherRezultatiController implements Initializable {
         listaVju.setItems(lista);
         listaVju.getSelectionModel().selectedItemProperty().addListener((obs, oldKorisnik, newKorisnik) -> {
             odabraniStudent=newKorisnik;
-            String[] temp = odabraniStudent.getImePrezime().split(" ");
-            labelaIme.setText(temp[1]);
-            labelaPrezime.setText(temp[0]);
-            labelaBrojIndeksa.setText(odabraniStudent.getBrojIndeksa());
-            ObservableList<Predmet> tempLista = FXCollections.observableArrayList();
-            ObservableList<Predmet> tempLista2 = FXCollections.observableArrayList();
-            for(Map.Entry<String, Integer> it : odabraniStudent.getMapaPredmeta().entrySet())
-            {
-                if(it.getValue()>5) {
-                    tempLista.add(new Predmet(it.getKey(), it.getValue()));
+            if(odabraniStudent!=null) {
+                String[] temp = odabraniStudent.getImePrezime().split(" ");
+                labelaIme.setText(temp[1]);
+                labelaPrezime.setText(temp[0]);
+                labelaBrojIndeksa.setText(odabraniStudent.getBrojIndeksa());
+                ObservableList<Predmet> tempLista = FXCollections.observableArrayList();
+                ObservableList<Predmet> tempLista2 = FXCollections.observableArrayList();
+                for (Map.Entry<String, Integer> it : odabraniStudent.getMapaPredmeta().entrySet()) {
+                    if (it.getValue() > 5) {
+                        tempLista.add(new Predmet(it.getKey(), it.getValue()));
+                    } else {
+                        tempLista2.add(new Predmet(it.getKey(), it.getValue()));
+                    }
                 }
-                else{
-                    tempLista2.add(new Predmet(it.getKey(), it.getValue()));
-                }
+                polPredmeti.setItems(tempLista);
+                nepolPredmeti.setItems(tempLista2);
+                rankBr.setText(Integer.toString(dajRankTrenutnog(odabraniStudent.getBrojIndeksa())));
             }
-            polPredmeti.setItems(tempLista);
-            nepolPredmeti.setItems(tempLista2);
-            rankBr.setText(Integer.toString(dajRankTrenutnog(odabraniStudent.getBrojIndeksa())));
         });
         listaVju.refresh();
+
     }
 
     public void btnPretraziAction(ActionEvent event)

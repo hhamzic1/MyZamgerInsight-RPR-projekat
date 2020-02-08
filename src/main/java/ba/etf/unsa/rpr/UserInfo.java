@@ -283,6 +283,10 @@ public class UserInfo {
             this.mojaGeneracijaSve.putIfAbsent(ind.replaceAll("[^\\d]",""), new Student(imenaMapa.get(Integer.parseInt(ind.replaceAll("[^\\d]",""))), ind.replaceAll("[^\\d]","")));
         });
 
+        for(Map.Entry<String, Student> it : this.mojaGeneracijaSve.entrySet()){
+            if(it.getValue().getImePrezime()==null) it.getValue().setImePrezime("Nepoznata osoba");
+        }
+
     }
 
     public void formirajBachelor() {
@@ -310,10 +314,13 @@ public class UserInfo {
                         }
                         popuniStudenteOcjenama(spojiIndekseIOcjeneUArrayList(indeksi, ocjene), it); //saljem sa trenutnog izvjestaja indexe, ocjene, i predmet ciji smo izvjestaj otvorili(odnosno it je ime predmeta + id predmeta na zamgeru)
                     });
-
+            if(l.get()==0) {
+                izbaciPonovce(this.mojaGeneracijaSve);
+            }
             l.getAndIncrement();
 
         } while (l.get() != 3);
+
 
         obsListaStudenata.addAll(getMojaGeneracijaSve().values());
         obsListaStudenata.sort(Student::compareTo);
@@ -346,15 +353,8 @@ public class UserInfo {
     }
 
 
-    private static void izbaciPonovce(ArrayList<Student> temp) {
-        for(int i=0; i<temp.size(); i++)
-        {
-            if(temp.get(i).getMapaPredmeta().size()<10)
-            {
-                temp.remove(i);
-                i--;
-            }
-        }
+    private static void izbaciPonovce(Map<String, Student> temp) {
+        temp.entrySet().removeIf(e-> (e.getValue().getMapaPredmeta().size()<10));
     }
 
 

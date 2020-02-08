@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Student implements Comparable<Student> {
-    private final String imePrezime;
+    private String imePrezime;
     private final String brojIndeksa;
     private Map<String, Integer> mapaPredmeta;
     private Map<String,Integer> polozeni;
@@ -25,6 +25,10 @@ public class Student implements Comparable<Student> {
 
     public String getImePrezime() {
         return imePrezime;
+    }
+
+    public void setImePrezime(String str){
+        this.imePrezime=str;
     }
 
     public String getBrojIndeksa() {
@@ -48,17 +52,19 @@ public class Student implements Comparable<Student> {
                 polozeni.put(it.getKey(), it.getValue());
                 suma+=it.getValue();
                 brPredmeta++;
-                continue;
             }
-            nepolozeni.put(it.getKey(), it.getValue());
+            else {
+                nepolozeni.put(it.getKey(), it.getValue());
+            }
         }
         if(suma==0) {
             this.prosjekBachelor=5.;
-            return;
         }
-        double prosjek = (double) suma / brPredmeta;
-        double temp = Math.round(prosjek * 100);
-        this.prosjekBachelor = temp / 100;
+        else {
+            double prosjek = (double) suma / brPredmeta;
+            double temp = Math.round(prosjek * 100);
+            this.prosjekBachelor = temp / 100;
+        }
     }
 
 

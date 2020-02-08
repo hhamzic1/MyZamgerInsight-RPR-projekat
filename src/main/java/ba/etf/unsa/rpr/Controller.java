@@ -112,7 +112,7 @@ public class Controller{
 
                     ArrayList<Integer> listaOcjena = new ArrayList<>();
                     for (Element red : doc.select("table")) {
-                        String[] ocjene = red.select("td:last-of-type").text().replaceAll("\\(.*?\\)", "").replaceAll("Nije ocijenjen", "5").replaceAll("\\s{2,}", " ").trim().split(" ");
+                        String[] ocjene = red.select("td:last-of-type").text().replaceAll("uspješno odbranio", "10").replaceAll("\\(.*?\\)", "").replaceAll("Nije ocijenjen", "5").replaceAll("\\s{2,}", " ").trim().split(" ");
                         for (String str : ocjene) listaOcjena.add(Integer.parseInt(str));
                     }
 

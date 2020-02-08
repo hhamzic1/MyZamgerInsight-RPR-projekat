@@ -68,24 +68,13 @@ public class HomeController implements Initializable {
     public Label prosjek;
     public Label lbl_rank;
     public Label specPoruka;
-    public Label labelaGodinaUpisa;
-    public JFXButton mojiRezultati;
-    public JFXButton rezGeneracije;
     public Label inicijali;
-    public JFXButton rezDrugaGen;
-    public JFXButton instaBtn;
-    public JFXButton fbBtn;
-    public JFXButton gitBtn;
     public Label cifreIndeksa;
-    public Label labelaImePravo;
-    public MenuItem englJezik;
-    public MenuItem bosJezik;
     public String[] nizImePrezime;
     public String imeMajke;
     public String imeOca;
     public Integer rankUGen;
-    public MenuItem aboutMenu;
-    public MenuItem exportMenu;
+
 
     public ObservableList<Student> listaStd = FXCollections.observableArrayList();
 
@@ -98,22 +87,28 @@ public class HomeController implements Initializable {
         if(trenutniKorisnik.getSpol().equals("M")) {
             if(Locale.getDefault().getCountry().equals("US"))
             {
-                labelaIme.setText("Hi, greetings ");
+                labelaIme.setText("Hi, greetings "+s[0]);
+                brIndeksa.setText("Number of index: "+trenutniKorisnik.dajBrojIndexa());
             }
-           else labelaIme.setText("Dobro došao ");
+           else{
+               labelaIme.setText("Dobro došao "+s[0]);
+                brIndeksa.setText("Broj indeksa: "+trenutniKorisnik.dajBrojIndexa());
+            }
         }
         else{
             if(Locale.getDefault().getCountry().equals("US"))
             {
-                labelaIme.setText("Hi, greetings ");
+                labelaIme.setText("Hi, greetings "+s[0]);
+                brIndeksa.setText("Number of index: "+trenutniKorisnik.dajBrojIndexa());
             }
-            else labelaIme.setText("Dobro došla ");
+            else{
+                labelaIme.setText("Dobro došla "+s[0]);
+                brIndeksa.setText("Number of index: "+trenutniKorisnik.dajBrojIndexa());
+            }
         }
-        labelaImePravo.setText(""+s[0]);
         String inc = ""+s[0].charAt(0)+s[1].charAt(0);
         inicijali.setText(inc);
         imePrezime.setText(trenutniKorisnik.getImePrezime());
-        cifreIndeksa.setText(Integer.toString(trenutniKorisnik.dajBrojIndexa()));
         brPolozenih.setText(String.valueOf(trenutniKorisnik.dajPolozene().size()));
         brNepolozenih.setText(String.valueOf(trenutniKorisnik.dajNepolozene().size()));
 
