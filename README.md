@@ -65,6 +65,6 @@ Klikom na "Help" pa na "O nama" u menu baru, dobijate informacije o aplikaciji.
 I na kraju klikom na dugme "Odjavi se" vraćate se na login screen sa početka.
 
 # Napomena:
-Autor je svjestan da aplikacija barata sa „osjetljivim“ informacijama i radi toga je prvenstveno stavljen Zamger login jer je autor mišljenja da ovo sve mora ostati u krugovima ETF-a te da nikako ne smije izaći van njih. Još jednom napominjem da informacije o studentima nisu prikupljane ilegalno već da su one dostupne na internetu uz malo bolji Google search, te da ih autor ni na kakav način ne zloupotrebljava.
+Autor je svjestan da aplikacija barata sa „osjetljivim“ informacijama i radi toga je prvenstveno stavljen Zamger login jer je autor mišljenja da ovo sve mora ostati u krugovima ETF-a te da nikako ne smije izaći van njih. Još jednom napominjem da informacije o studentima nisu prikupljane ilegalno već da su one dostupne na internetu uz malo bolji Google search, te da ih autor ni na kakav način ne zloupotrebljava. Sve bugove i prijedloge za poboljšanje aplikacije pišite na: hhamzic1@etf.unsa.ba
 
 #  Huso Hamzić,  © 2020
