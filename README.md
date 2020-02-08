@@ -17,6 +17,8 @@ Huso Hamzić(iskucao 95% koda od nule)
 
 Enil Pajić (Pomoć oko Zamger login-a)
 
+Tarik Horozović (.exe fajl)
+
 Paša Džumhur, Mirza Učanbarlić (testiranje beta verzije aplikacije)
 
 # Opis rada:
