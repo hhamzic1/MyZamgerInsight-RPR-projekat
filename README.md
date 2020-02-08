@@ -8,7 +8,7 @@ Razvoj programskih rješenja.
 Download link za executable jar:
 https://drive.google.com/drive/folders/1HoGAXvPWRriItE2v0ZqHQnld9oskgt9D
 
-Zasluge:
+Zasluge/Mentions:
 
 Huso Hamzić(iskucao 95% koda od nule)
 
