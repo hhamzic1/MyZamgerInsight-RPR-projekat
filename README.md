@@ -18,7 +18,7 @@ Paša Džumhur, Mirza Učanbarlić (testiranje beta verzije aplikacije)
 
 # Opis rada:
 
-![](slike-readme/filename login-screen.jpg)
+![github-small](slike-readme/login-screen.jpg)
 
 
 
