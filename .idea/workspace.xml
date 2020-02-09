@@ -6,11 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd1b944-a2af-4a7b-9a4c-e8cad6648d30" name="Default Changelist" comment="feedback prepravka(feedback je siguran, neće davat fake info)">
-      <change afterPath="$PROJECT_DIR$/target/classes/ba/etf/unsa/rpr/HomeController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fxml/Home.fxml" afterDir="false" />
+    <list default="true" id="2cd1b944-a2af-4a7b-9a4c-e8cad6648d30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/UserInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +257,10 @@
       <workItem from="1581091152771" duration="3759000" />
       <workItem from="1581120745335" duration="634000" />
       <workItem from="1581121434182" duration="599000" />
-      <workItem from="1581122058436" duration="626000" />
+      <workItem from="1581122058436" duration="894000" />
+      <workItem from="1581126320632" duration="954000" />
+      <workItem from="1581188797540" duration="442000" />
+      <workItem from="1581268084319" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="Prepravke unutar UI (prevod/preklapanje).">
       <created>1581121047807</created>
@@ -268,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581121047807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feedback prepravka(feedback je siguran, neće davat fake info)">
+      <created>1581122699931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581122699931</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,10 +296,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578508019648" />
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580566838558">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581126352647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580566838558" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581126352647" />
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1580593713114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -308,10 +316,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580584943785" />
-    <state x="337" y="8" key="CommitChangelistDialog2" timestamp="1581122547691">
+    <state x="337" y="8" key="CommitChangelistDialog2" timestamp="1581122697973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="337" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581122547691" />
+    <state x="337" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581122697973" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1578327654162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -320,22 +328,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581121322448" />
-    <state width="1493" height="189" key="GridCell.Tab.0.bottom" timestamp="1581121379653">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1581268342530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581121379653" />
-    <state width="1493" height="189" key="GridCell.Tab.0.center" timestamp="1581121379652">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581268342530" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1581268342530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581121379652" />
-    <state width="1493" height="189" key="GridCell.Tab.0.left" timestamp="1581121379652">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581268342530" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1581268342529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581121379652" />
-    <state width="1493" height="189" key="GridCell.Tab.0.right" timestamp="1581121379653">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581268342529" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1581268342530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581121379653" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581268342530" />
     <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1580605802184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -372,10 +380,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580329942543" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581121058114">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581122710923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581121058114" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581122710923" />
     <state x="584" y="191" key="chooseDestDirectoryDialog" timestamp="1577795048733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

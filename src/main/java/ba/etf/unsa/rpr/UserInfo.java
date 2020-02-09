@@ -314,9 +314,6 @@ public class UserInfo {
                         }
                         popuniStudenteOcjenama(spojiIndekseIOcjeneUArrayList(indeksi, ocjene), it); //saljem sa trenutnog izvjestaja indexe, ocjene, i predmet ciji smo izvjestaj otvorili(odnosno it je ime predmeta + id predmeta na zamgeru)
                     });
-            if(l.get()==0) {
-                izbaciPonovce(this.mojaGeneracijaSve);
-            }
             l.getAndIncrement();
 
         } while (l.get() != 3);
@@ -351,12 +348,6 @@ public class UserInfo {
         if(mojaGeneracijaSve.get(p.getKey())==null) return;
         mojaGeneracijaSve.get(p.getKey()).getMapaPredmeta().put(it.getKey().replaceAll("\\s-\\snovi","").replaceAll("\\s-\\sAiE","").replaceAll("\\s-\\sTK","").replaceAll("\\s-\\sRI","").replaceAll("\\s-\\sEE","").replaceAll("\\s-\\sstari","").replaceAll("\\sv1","").replaceAll("\\sv2","").replaceAll("\\sv3","").replaceAll("\\sv4",""), p.getValue());
     }
-
-
-    private static void izbaciPonovce(Map<String, Student> temp) {
-        temp.entrySet().removeIf(e-> (e.getValue().getMapaPredmeta().size()<10));
-    }
-
 
 
     public void prikaziRezultateMojeGeneracije(){
