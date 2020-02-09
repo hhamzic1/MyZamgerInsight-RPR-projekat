@@ -11,6 +11,10 @@ Napomena: Ako bude izbacivalo neki error prilikom pokretanja, stavite antivirus 
 
 https://drive.google.com/file/d/1pyab-V9Cxa8zzTvzUReC047PslEYBAgz/view?fbclid=IwAR3mgz58mP4gZAiFSfgNj5IiuB5kPJCavo_9IKBXtBcnAZamLarsg3yFGFE
 
+Drugi link(u slučaju da prvi zakaže)
+
+https://www.sendspace.com/file/3bbca4
+
 # Download link za .jar file(pokretanje iz cmd-a):
 https://drive.google.com/drive/folders/1HoGAXvPWRriItE2v0ZqHQnld9oskgt9D
 
