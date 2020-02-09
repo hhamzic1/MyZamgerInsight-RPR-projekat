@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/1HoGAXvPWRriItE2v0ZqHQnld9oskgt9D
 
 Huso Hamzić(iskucao 95% koda od nule)
 
-Enil Pajić (Pomoć oko Zamger API-a)
+Enil Pajić (Pomoć oko Zamger API-a, ZamgerApiDemo klasa)
 
 Tarik Horozović (.exe fajl)
 
