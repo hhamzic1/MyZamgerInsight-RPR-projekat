@@ -9,6 +9,9 @@ Razvoj programskih rješenja.
 https://drive.google.com/file/d/1pyab-V9Cxa8zzTvzUReC047PslEYBAgz/view?fbclid=IwAR3mgz58mP4gZAiFSfgNj5IiuB5kPJCavo_9IKBXtBcnAZamLarsg3yFGFE
 
 # Download link za .jar file(pokretanje iz cmd-a):
+
+Napomena: Ako bude izbacivalo neki error prilikom pokretanja, stavite antivirus na silent mode ili ga disable
+
 https://drive.google.com/drive/folders/1HoGAXvPWRriItE2v0ZqHQnld9oskgt9D
 
 # Zasluge/Mentions:
