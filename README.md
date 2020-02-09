@@ -6,7 +6,7 @@ Elektrotehnički fakultet Sarajevo
 Razvoj programskih rješenja.
 
 # Download link za executable(.exe pokretanje na dvoklik):
-drive.google.com/file/d/1pyab-V9Cxa8zzTvzUReC047PslEYBAgz
+https://drive.google.com/file/d/1pyab-V9Cxa8zzTvzUReC047PslEYBAgz/view?fbclid=IwAR3mgz58mP4gZAiFSfgNj5IiuB5kPJCavo_9IKBXtBcnAZamLarsg3yFGFE
 
 # Download link za .jar file(pokretanje iz cmd-a):
 https://drive.google.com/drive/folders/1HoGAXvPWRriItE2v0ZqHQnld9oskgt9D
